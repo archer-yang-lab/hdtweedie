@@ -1,0 +1,16 @@
+useDynLib("HDtweedie")
+
+export(HDtweedie,
+cv.HDtweedie,
+predict.HDtweedie,
+coef.HDtweedie)
+
+S3method("print","HDtweedie")
+S3method("coef","HDtweedie")
+S3method("coef","cv.HDtweedie")
+S3method("plot","HDtweedie")
+S3method("plot","cv.HDtweedie")
+S3method("predict","HDtweedie")
+S3method("predict","cv.HDtweedie")
+
+
