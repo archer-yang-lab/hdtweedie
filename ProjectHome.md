@@ -1,0 +1,1 @@
+This R package implements a iteratively reweighed least square (IRLS) strategy that incorporates a blockwise majorization decent (BMD) method, for efficiently computing the solution paths of the (grouped) lasso and the (grouped) elastic net for the Tweedie model.
